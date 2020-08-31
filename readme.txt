@@ -17,7 +17,7 @@ You can create  menuitems for categories and category, the extension is served f
 posts. 
 Also joomla color picker might not work, in that case email me , to develop a custom color picker. (It is joomla issue no connection with this extension)
 The license is GNU/GPLv3.
-It is written for joomla 3.x, the joomla 4alpha version shall be prepared soon.
+It is written for joomla 3.x, the joomla 4.x version shall be prepared soon.
 demo :https://soulart.joomla.com/debate-for-art.html
 download :https://www.extensions.kwproductions121.com/mycomponents/debate-download.html
 In case of any problem contact me at:

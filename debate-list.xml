@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extensionset name="Packages Debate" description="Packages Debate">
+   <extension name="pkg_debate" element="pkg_debate" type="package" version="1.0.0" detailsurl="https://www.extensions.kwproductions121.com/myextensions.xml"/>
+</extensionset>

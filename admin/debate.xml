@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.x" method="upgrade">
+    <identifier>com:debate</identifier>
+    <name>Debate</name>
+    <creationDate>Oct 2018</creationDate>
+    <author>Kian William Nowrouzian</author>
+	<copyright>Copyright (C) 2005 - 2017  All rights reserved. </copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>mezmer121@gmail.com</authorEmail>
+	<authorUrl>http://www.extensions.lord121.ir</authorUrl>
+    <version>1.0.0</version>	
+	<description><![CDATA[<div style="color:#fff; background-color:#f015d9; padding:5px;">Welcome To Debate! Before going furture study the readme.txt which is located in the zip fille you already downloaded to get a general idea.</div>]]></description>
+	 
+	<install>
+		<sql>
+            <file charset="utf8" driver="mysql">sql/install.sql</file>
+        </sql>
+    </install>
+	
+	<uninstall>
+		<sql>
+            <file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+        </sql>
+    </uninstall>
+	
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB/en-GB.com_debate.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_debate.sys.ini</language>
+	</languages>
+	<media destination="com_debate" folder="media">
+		<filename>index.html</filename>
+		<filename>icon-24_debate.png</filename>
+		<folder>cache</folder>		
+	</media>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>debate.php</filename>
+		<filename>router.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>assets</folder>
+		<folder>language</folder>
+		<folder>helpers</folder>
+				<folder>controllers</folder>
+
+	</files>
+	<administration>
+	
+		   <menu img="../media/com_debate/img/borgs.png" >COM_DEBATE</menu>
+		<submenu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_categories&amp;extension=com_debate">COM_DEBATE_MENU_CATEGORIES</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=messages">COM_DEBATE_MENU_MESSAGES</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=rules">COM_DEBATE_MENU_RULES</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=fonders">COM_DEBATE_MENU_FONDERS</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=files">COM_DEBATE_MENU_FILES</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=ips">COM_DEBATE_MENU_IPS</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=depriveusers">COM_DEBATE_MENU_DEPRIVE_USERS</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=deprivelistusers">COM_DEBATE_MENU_DEPRIVE_LIST</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=badposts">COM_DEBATE_MENU_BAD_POSTS</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=editedmessages">COM_DEBATE_MENU_EDITED_MESSAGES</menu>
+			<menu img="../media/com_debate/img/borgs.png"  link="option=com_debate&amp;view=config&amp;layout=edit">COM_DEBATE_MENU_CONFIG</menu>
+
+
+
+		</submenu>	
+		   
+		   <files folder="admin">
+		    <filename>debate.xml</filename>
+        	<filename>debate.php</filename>
+            <filename>controller.php</filename>
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+			<filename>index.html</filename>
+			
+
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+            <folder>models</folder>
+			<folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+          </files>
+		  
+		  <languages>
+		   <language tag="en-GB">language/en-GB/en-GB.com_debate.ini</language>
+		    <language tag="en-GB">language/en-GB/en-GB.com_debate.sys.ini</language>
+	    </languages>
+
+	
+	</administration>
+	
+</extension>

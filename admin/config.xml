@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<fieldset name="component"
+		label="COM_DEBATE_CONFIG_GLOBAL_SETTINGS_LABEL">
+		
+		
+			<field 
+				name="show_empty_categories_cat" 
+				type="list"
+				label="JGLOBAL_SHOW_EMPTY_CATEGORIES_LABEL"
+				description="COM_DEBATE_SHOW_EMPTY_CATEGORIES_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			
+				
+	 <field
+			name="user_to_email"
+			type="user"
+			label="COM_DEBATE_FIELD_USER_TO_EMAIL_LABEL"
+			description="COM_DEBATE_FIELD_USER_TO_EMAIL_DESC"
+			default="0"
+		>
+		</field>	
+ 	
+			
+		
+			<field 
+				name="show_category_title" 
+				type="list"
+				label="JGLOBAL_SHOW_CATEGORY_TITLE"
+				description="JGLOBAL_SHOW_CATEGORY_TITLE_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field 
+				name="show_description" 
+				type="list"
+				label="JGLOBAL_SHOW_CATEGORY_DESCRIPTION_LABEL"
+				description="JGLOBAL_SHOW_CATEGORY_DESCRIPTION_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field 
+				name="show_description_image" 
+				type="list"
+				label="JGLOBAL_SHOW_CATEGORY_IMAGE_LABEL"
+				description="JGLOBAL_SHOW_CATEGORY_IMAGE_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field 
+				name="maxLevel" 
+				type="list"
+				label="JGLOBAL_MAXIMUM_CATEGORY_LEVELS_LABEL"
+				description="JGLOBAL_MAXIMUM_CATEGORY_LEVELS_DESC"
+				default="-1"
+				>
+				<option value="-1">JALL</option>
+				<option value="0">JNONE</option>
+				<option value="1">J1</option>
+				<option value="2">J2</option>
+				<option value="3">J3</option>
+				<option value="4">J4</option>
+				<option value="5">J5</option>
+			</field>
+
+			<field 
+				name="show_empty_categories" 
+				type="list"
+				label="JGLOBAL_SHOW_EMPTY_CATEGORIES_LABEL"
+				description="COM_DEBATE_SHOW_EMPTY_CATEGORIES_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field 
+				name="show_subcat_desc" 
+				type="list"
+				label="JGLOBAL_SHOW_SUBCATEGORIES_DESCRIPTION_LABEL"
+				description="JGLOBAL_SHOW_SUBCATEGORIES_DESCRIPTION_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field 
+				name="show_cat_items"
+				type="list"
+				label="COM_DEBATE_FIELD_SHOW_CAT_ITEMS_LABEL"
+				description="COM_DEBATE_FIELD_SHOW_CAT_ITEMS_DESC"
+				id="show_cat_items"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+		
+			
+
+			<field
+				name="filter_field"
+				type="list"
+				label="JGLOBAL_FILTER_FIELD_LABEL"
+				description="JGLOBAL_FILTER_FIELD_DESC"
+				default="1"
+				>
+				<option value="hide">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field 
+				name="show_pagination_limit"
+				type="list"
+				label="JGLOBAL_DISPLAY_SELECT_LABEL"
+				description="JGLOBAL_DISPLAY_SELECT_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field
+				name="show_headings"
+				type="list"
+				label="JGLOBAL_SHOW_HEADINGS_LABEL"
+				description="JGLOBAL_SHOW_HEADINGS_DESC"
+				id="show_headings"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>			
+
+			<field 
+				name="show_pagination"
+				type="list"
+				label="JGLOBAL_PAGINATION_LABEL"
+				description="JGLOBAL_PAGINATION_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+				<option value="2">JGLOBAL_AUTO</option>
+			</field>
+
+			<field
+				name="show_pagination_results"
+				type="list"
+				label="JGLOBAL_PAGINATION_RESULTS_LABEL"
+				description="JGLOBAL_PAGINATION_RESULTS_DESC"
+				default="1"
+				>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			 <field
+			name="counter1"
+			type="text"
+			label="COM_DEBATE_FIELD_COUNTER_LABEL"
+			description="COM_DEBATE_FIELD_COUNTER_DESC"
+			default="0"
+			readonly="true"
+		>
+		</field>
+		
+
+		 		
+	</fieldset>			
+		
+</config>

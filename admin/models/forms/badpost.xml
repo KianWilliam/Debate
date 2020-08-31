@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset name="general">
+		
+		
+		
+		<field name="id"
+               type="text"
+               label="JGLOBAL_FIELD_ID_LABEL"
+               description="JGLOBAL_FIELD_ID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		<field name="fonderid"
+               type="text"
+               label="JGLOBAL_FIELD_FONDERID_LABEL"
+               description="JGLOBAL_FIELD_FONDERID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		<field name="messageid"
+               type="text"
+               label="JGLOBAL_FIELD_MESSAGEID_LABEL"
+               description="JGLOBAL_FIELD_MESSAGEID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		  
+       <field name="userid"
+               type="text"
+               label="JGLOBAL_FIELD_USERID_LABEL"
+               description="JGLOBAL_FIELD_USERID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		
+		
+           				
+		
+		<field name="baddate"
+               type="text"
+               label="COM_DEBATE_BAD_POST_DATE_LABEL"
+               description="COM_DEBATE_BAD_POST_DATE_DESC"
+               size="10"
+               class="readonly"
+			   readonly="true"
+
+        />
+		
+			<field name="reason"
+               type="textarea"
+               label="COM_DEBATE_FIELD_REASON_LABEL"
+               description="COM_DEBATE_FIELD_REASON_LABEL"
+               rows="10"
+				cols="10"
+        />
+		
+		<field name="checked_out"
+			type="hidden"
+			filter="unset"
+		/>
+		<field name="checked_out_time"
+			type="hidden"
+			filter="unset"
+		/>
+		
+		</fieldset>
+		
+</form>

@@ -1,0 +1,4 @@
+.span12 >.row,
+form >.row{
+	margin-left: 0;
+}

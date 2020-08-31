@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user" method="upgrade">
+	<name>plg_user_deleteuserrecs</name>
+	<author>Kian William Nowrouzian</author>
+	<creationDate>Feb 2020</creationDate>
+	<copyright>(C) 2020-2040.Kian William Productions Co. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>webarchitect@kwproductions121.com</authorEmail>
+	<authorUrl>www.kwproductions121.xom</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[This plugin once enabled shall delete all records of related user who is deleted by an admin from users screen in backend of joomla from forum.]]></description>
+	<files>
+		<filename plugin="deleteuserrecs">deleteuserrecs.php</filename>
+
+	</files>
+	
+	<config>
+		
+	</config>
+</extension>

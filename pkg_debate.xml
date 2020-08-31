@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="package" version="3.x" method="upgrade">
+ <identifier>pkg:debate</identifier>
+ <name>Debate Package</name>
+ <author>Kian William Nowrouzian</author>
+ <creationDate>Oct 2018</creationDate>
+ <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+ <packagename>debate</packagename>
+ <version>1.0.0</version>
+ <url>https://www.extensions.kwproductions121.com</url>
+ <packager>Kian William Nowrouzian</packager>
+ <packagerurl>https://www.extensions.kwproductions121.com</packagerurl>
+ <description><![CDATA[<div style="color:#fff; background-color:#f015d9; padding:5px;">The complete package of debate is installed,  Enjoy!</div> ]]></description>
+ <update>http://www.extensions.kwproductions121.com</update>
+ <scriptfile>install.script.php</scriptfile>
+ <files>
+   <file type="component" id="com_debate" >admin.zip</file>
+   <file type="plugin" client="administrator" group="user" >deleteuserrecs.zip</file>
+   
+
+
+</files>
+<updateservers>
+		<server type="collection" name="pkg_debate"><![CDATA[https://www.extensions.kwproductions121.com/myextensions.xml]]></server>
+</updateservers>
+ </extension>

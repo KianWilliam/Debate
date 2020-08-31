@@ -1,0 +1,21 @@
+.controlpanel div
+{
+	display:inline-block;
+	margin-left:55px;
+	text-align:center;
+}
+ul.adminformlist{
+	list-style-type:none;
+}
+ul.adminformlist li label{
+	width:242px;
+}
+.controlpanel div img
+{
+	width:201px;
+	height:201px;
+}
+.controlpanel div img[title*="Messages"]
+{
+	height:183px;
+}

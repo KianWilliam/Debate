@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form  addrulepath="/administrator/components/com_debate/models/rules">
+    <fieldset
+				name="details"
+				label="COM_DEBATE_RESPONSE_DETAILS"
+	>
+	          <field
+				name="id"
+				id="recid"
+				type="hidden"
+				/>
+		       <field
+				name="title"
+				id="title"
+				label="COM_DEBATE_TITLE_LABEL"
+				description="COM_DEBATE_TITLE_DESC"
+				type="text"
+				class="inputbox validate-title"
+				
+                required="true"
+				
+				/>
+						<field
+				name="threadid"
+				id="threadid"
+				type="hidden"
+				/>
+						<field
+				name="catid"
+				type="hidden"
+				id="catid"
+
+				/>
+		
+              <field
+                name="message"
+				id="message"	
+                type="editor"
+                width="100%"
+                height="250px"
+				label="COM_DEBATE_RESPONSE_MESSAGE_LABEL"
+				description="COM_DEBATE_RESPONSE_MESSAGE_DESC"
+                hint="COM_DEBATE_RESPONSE_MESSAGE_HINT"
+				hide=""
+				buttons=""
+				editor="desired"
+				class="required validate-message"
+               				
+                >
+        </field>
+		
+        <field
+				name="attachmentfile"
+				type="file"
+				default=""
+				label="COM_DEBATE_ATTACHMENT_LABEL"
+				description="COM_DEBATE_ATTACHMENT_DESC"
+				accept="image/*, audio/*, video/*, txt, pdf, xml, sql"
+				multiple="true"
+                >
+			
+		</field>
+		 
+       
+		
+       
+    </fieldset>
+</form>

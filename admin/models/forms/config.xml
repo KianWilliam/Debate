@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset name="general">
+		<field name="forumtitle"
+               type="text"
+               label="JGLOBAL_TITLE"
+               description="COM_DEBATE_FORUM_TITLE_DESC"
+               class="inputbox"
+               size="30"
+               required="true"
+        />
+		
+		
+		<field name="id"
+               type="text"
+               label="JGLOBAL_FIELD_ID_LABEL"
+               description="JGLOBAL_FIELD_ID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		<field name="forumemail"
+               type="email"
+               label="JGLOBAL_FIELD_FORUM_EMAIL_LABEL"
+               description="JGLOBAL_FIELD_FORUM_EMAIL_DESC"
+               size="10"
+               
+        />
+
+		<field id="forumoffline"
+               name="forumoffline"
+               type="list"
+               label="JGLOBAL_FIELD_FORUM_OFFLINE_LABEL"
+               description="JGLOBAL_FIELD_FORUM_OFFLINE_DESC"
+               class="inputbox"
+               size="1"
+               default="No"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		<field id="publishrules"
+               name="publishrules"
+               type="list"
+               label="JGLOBAL_FIELD_PUBLISH_RULES_LABEL"
+               description="JGLOBAL_FIELD_PUBLISH_RULES_LABEL"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		<field id="viewfonderprofile"
+               name="viewfonderprofile"
+               type="list"
+               label="JGLOBAL_FIELD_VIEW_FONDER_PROFILE_LABEL"
+               description="JGLOBAL_FIELD_VIEW_FONDER_PROFILE_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		<field name="offlinemessage"
+               type="textarea"
+               label="JGLOBAL_FIELD_OFFLINE_MESSAGE_LABEL"
+               description="JGLOBAL_FIELD_OFFLINE_MESSAGE_LABEL"
+               rows="10"
+				cols="10"
+				default="Offline message"
+        />
+	
+		<field id="showhistory"
+               name="showhistory"
+               type="list"
+               label="JGLOBAL_FIELD_SHOW_HISTORY_LABEL"
+               description="JGLOBAL_FIELD_SHOW_HISTORY_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+			<field id="shownewposts"
+               name="shownewposts"
+               type="list"
+               label="JGLOBAL_FIELD_SHOW_NEW_POSTS_LABEL"
+               description="JGLOBAL_FIELD_SHOW_NEW_POSTS_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+			<field id="messagereporting"
+               name="messagereporting"
+               type="list"
+               label="JGLOBAL_FIELD_MESSAGE_REPORTING_LABEL"
+               description="JGLOBAL_FIELD_MESSAGE_REPORTING_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+		
+			<field id="showuserstatistics"
+               name="showuserstatistics"
+               type="list"
+               label="JGLOBAL_FIELD_SHOW_USERS_STATISTICS_LABEL"
+               description="JGLOBAL_FIELD_SHOW_USERS_STATISTICS_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+		
+			<field id="allowsubscriptions"
+               name="allowsubscriptions"
+               type="list"
+               label="JGLOBAL_FIELD_ALLOW_SUBSCRIPTIONS_LABEL"
+               description="JGLOBAL_FIELD_ALLOW_SUBSCRIPTIONS_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+			<field id="showusersonline"
+               name="showusersonline"
+               type="list"
+               label="JGLOBAL_FIELD_SHOWUSERS_ ONLINE_LABEL"
+               description="JGLOBAL_FIELD_SHOWUSERS_ONLINE_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+			<field id="showjoindate"
+               name="showjoindate"
+               type="list"
+               label="JGLOBAL_FIELD_SHOW_JOINDATE_LABEL"
+               description="JGLOBAL_FIELD_SHOW_JOINDATE_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+		
+			<field id="showlastvisitdate"
+               name="showlastvisitdate"
+               type="list"
+               label="JGLOBAL_FIELD_SHOW_LASTVISITDATE_LABEL"
+               description="JGLOBAL_FIELD_SHOW_LASTVISITDATE_DESC"
+               class="inputbox"
+               size="1"
+               default="Yes"
+        >
+            <option value="Yes">
+                Yes</option>
+            <option value="No">
+                No</option>			
+        </field>
+		
+	
+		
+		<field name="recnumcat" type="integer" default="5" label="Number of Viewable Records in Category View" description="" first="5" last="50" step="5" />
+		<field name="recnummess" type="integer" default="5" label="Number of Viewable Records in Message View" description="" first="5" last="50" step="5" />
+		
+		
+		
+		<field name="checked_out"
+			type="hidden"
+			
+
+			filter="unset"
+		/>
+		<field name="checked_out_time"
+			type="hidden"
+		 
+		filter="unset"
+
+		/>
+		
+		</fieldset>
+
+		<fieldset name="basic">
+		<field name="buttbakcolor" type="color" default="#005EBD" format="rgba"
+	label="COM_DEBATE_BUTTON_BACKGROUND_COLOR_LABEL"
+	description="COM_DEBATE_BUTTON_BACKGROUND_COLOR_DESC" />
+	
+		<field name="titlecolor" type="color" default="#005EBD" format="rgba"
+	label="COM_DEBATE_TITLE_COLOR_LABEL"
+	description="COM_DEBATE_TITLE_COLOR_DESC" />
+	
+		<field name="textcolor" type="color" default="#005EBD" format="rgba"
+	label="COM_DEBATE_TEXT_COLOR_LABEL"
+	description="COM_DEBATE_TEXT_COLOR_DESC" />
+	
+		<field name="framebordercolor" type="color" default="#005EBD" format="rgba"
+	label="COM_DEBATE_FRAME_BORDER_COLOR_LABEL"
+	description="COM_DEBATE_FRAME_BORDER_COLOR_DESC" />
+	
+		<field id="titlefontweight"
+               name="titlefontweight"
+               type="list"
+               label="COM_DEBATE_TITLE_FONTWEIGHT_LABEL"
+               description="COM_DEBATE_TITLE_FONTWEIGHT_DESC"
+               class="inputbox"
+               size="1"
+               default="bold"
+        >
+            <option value="0">
+                normal</option>
+            <option value="1">
+                bold</option>
+				 <option value="2">
+                bolder</option>
+
+				
+        </field>
+		
+		<field id="titlefontstyle"
+               name="titlefontstyle"
+               type="list"
+               label="COM_DEBATE_TITLE_FONTSTYLE_LABEL"
+               description="COM_DEBATE_TITLE_FONTSTYLE_DESC"
+               class="inputbox"
+               size="1"
+               default="bold"
+        >
+            <option value="0">
+                normal</option>
+            <option value="1">
+                italic</option>	
+
+				
+        </field>
+		
+			<field id="textfontweight"
+               name="textfontweight"
+               type="list"
+               label="COM_DEBATE_TEXT_FONTWEIGHT_LABEL"
+               description="COM_DEBATE_TEXT_FONTWEIGHT_DESC"
+               class="inputbox"
+               size="1"
+               default="bold"
+        >
+            <option value="0">
+                normal</option>
+            <option value="1">
+                bold</option>
+				 <option value="2">
+                bolder</option>
+
+				
+        </field>
+		
+			<field id="textfontstyle"
+               name="textfontstyle"
+               type="list"
+               label="COM_DEBATE_TEXT_FONTSTYLE_LABEL"
+               description="COM_DEBATE_TEXT_FONTSTYLE_DESC"
+               class="inputbox"
+               size="1"
+               default="bold"
+        >
+            <option value="0">
+                normal</option>
+            <option value="1">
+                italic</option>	
+
+				
+        </field>
+		
+		<field name="fontfamily"
+               type="text"
+               label="COM_DEBATE_FONT_FAMILY_LABEL"
+               description="COM_DEBATE_FONT_FAMILY_DESC"
+               size="10"
+               default="arial"
+               
+        />
+		
+			<field name="textfontsize"
+               type="text"
+               label="COM_DEBATE_TEXT_FONT_SIZE_LABEL"
+               description="COM_DEBATE_TEXT_FONT_SIZE_DESC"
+               size="10"
+               default="12"
+               
+        />
+		
+			<field name="titlefontsize"
+               type="text"
+               label="COM_DEBATE_TITLE_FONT_SIZE_LABEL"
+               description="COM_DEBATE_TITLE_FONT_SIZE_DESC"
+               size="10"
+               default="15"
+               
+        />
+		
+			<field name="frameborderradius"
+               type="text"
+               label="COM_DEBATE_FRAME_BORDER_RADIUS_LABEL"
+               description="COM_DEBATE_FRAME_BORDER_RADIUS_DESC"
+               size="10"
+               default="5"
+               
+        />
+		
+		</fieldset>
+		
+</form>

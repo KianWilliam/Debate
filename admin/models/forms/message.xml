@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset name="general">
+		<field name="title"
+               type="text"
+               label="JGLOBAL_TITLE"
+               description="COM_DEBATE_TITLE_DESC"
+               class="inputbox"
+               size="30"
+               required="true"
+        />
+		
+		<field id="published"
+               name="published"
+               type="list"
+               label="JGLOBAL_STATE"
+               description="JFIELD_PUBLISHED_DESC"
+               class="inputbox"
+               size="1"
+               default="1"
+        >
+            <option value="1">
+                JPUBLISHED</option>
+            <option value="0">
+                JUNPUBLISHED</option>			
+        </field>
+		<field name="id"
+               type="text"
+               label="JGLOBAL_FIELD_ID_LABEL"
+               description="JGLOBAL_FIELD_ID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		<field name="threadid"
+               type="text"
+               label="JGLOBAL_FIELD_THREADID_LABEL"
+               description="JGLOBAL_FIELD_THREADID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		<field name="userid"
+               type="text"
+               label="JGLOBAL_FIELD_USERID_LABEL"
+               description="JGLOBAL_FIELD_USERID_DESC"
+               size="10"
+               default="0"
+               readonly="true"
+               class="readonly"
+        />
+		<field name="fonderid"
+               type="text"
+               label="COM_DEBATE_FONDERID_LABEL"
+               description="COM_DEBATE_FONDERID_DESC"
+               size="10"
+               
+            />
+			<field name="fondermessage"
+               type="text"
+               label="COM_DEBATE_FONDERMESSAGE_LABEL"
+               description="COM_DEBATE_FONDERMESSAGE_DESC"
+               size="10"
+              default="No"
+			  readonly="true"
+               
+            />
+			
+			<field id="fonderidea"
+               name="fonderidea"
+               type="list"
+               label="COM_DEBATE_FONDERIDEA_LABEL"
+               description="COM_DEBATE_FONDERIDEA_DESC"
+               class="inputbox"
+               size="1"
+               default="No"
+        >
+            <option value="no">
+                No</option>
+            <option value="edit">
+                Edit Post</option>	
+ <option value="bad">
+                Bad Post</option>
+				 <option value="deprive">
+                Deprive User</option>	
+				
+        </field>
+			
+		
+			  
+
+		<field name="created" type="text" label="COM_DEBATE_CREATED_LABEL"
+               description="COM_DEBATE_CREATED_DESC"
+               size="10"
+               default=""
+			   class="inputbox" />
+	
+	
+		<field name="checked_out"
+			type="hidden"
+			filter="unset"
+		/>
+		<field name="checked_out_time"
+			type="hidden"
+			filter="unset"
+		/>
+		<field  name="catid" type="category" extension="com_debate" class="inputbox" default="" label="COM_DEBATE_FIELD_CATID_LABEL"  description="COM_DEBATE_FIELD_CATID_DESC"  required="true" >
+			<option value="0">JOPTION_SELECT_CATEGORY</option>
+		</field>
+		 <field
+                name="message"
+                type="editor"
+                width="100%"
+                height="250px"
+				label="COM_DEBATE_MESSAGE_LABEL"
+				description="COM_DEBATE_MESSAGE_DESC"                
+				required="true"
+				hide=""
+				buttons=""
+				editor="desired"
+                >
+        </field>
+		<field name="attachment"
+               type="text"
+               label="COM_DEBATE_ATTACHMENT_LABEL"
+               description="COM_DEBATE_ATTACHMENT_DESC"
+               size="10"              
+        />
+		</fieldset>
+		<fields name="params" >
+			<fieldset name="general_settings" label="General">
+				<field name="show_category_title" 
+                   type="list"
+				   default="1"
+                   label="COM_DEBATE_SHOWCATTITLE_LABEL"
+                   description="COM_DEBATE_SHOWCATTITLE_DESC" >
+				   <option value="1">True</option>
+				   	<option value="0">False</option>
+                </field>
+				 <field
+			name="counter1"
+			type="text"
+			label="COM_DEBATE_FIELD_COUNTER_LABEL"
+			description="COM_DEBATE_FIELD_COUNTER_DESC"
+			default="0"
+			readonly="true"
+		>
+		</field>
+				
+            </fieldset>
+		</fields>
+</form>
